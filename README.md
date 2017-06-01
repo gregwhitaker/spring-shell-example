@@ -1,7 +1,7 @@
 # spring-shell-example
 [![Build Status](https://travis-ci.org/gregwhitaker/spring-shell-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/spring-shell-example)
 
-Example of using Spring-Shell to create a CLI application.
+Example of using [Spring-Shell](https://github.com/spring-projects/spring-shell) to create a CLI application.
 
 ## Bugs and Feedback
 
