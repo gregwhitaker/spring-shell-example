@@ -1,0 +1,18 @@
+group 'com.github.gregwhitaker'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'application'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    maven { url 'https://repo.spring.io/libs-snapshot' }
+}
+
+dependencies {
+    compile 'org.springframework.shell:spring-shell:1.1.0.RELEASE'
+}
+
+mainClassName = 'com.github.gregwhitaker.springshell.example.Main'
